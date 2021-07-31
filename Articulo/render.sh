@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 
 bibtex ba-bycing # generates a bbl
 latex ba-bycing.tex # generates aux,dvi etc
