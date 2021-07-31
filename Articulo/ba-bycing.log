@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  23 JUL 2021 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  31 JUL 2021 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -262,10 +262,10 @@ cmtt/m/n/10 http : / / www . latex-[]project . org / ftp . html$\OT1/cmr/m/n/10
 
 [3]
 Package epstopdf Info: Source file: <eijkel2.eps>
-(epstopdf)                    date: 2021-07-23 18:59:03
+(epstopdf)                    date: 2021-07-26 21:28:40
 (epstopdf)                    size: 13532 bytes
 (epstopdf)             Output file: <eijkel2-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-23 19:45:02
+(epstopdf)                    date: 2021-07-26 21:28:40
 (epstopdf)                    size: 9209 bytes
 (epstopdf)             Command: <repstopdf --outfile=eijkel2-eps-converted-to.p
 df eijkel2.eps>
