@@ -1,48 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2021/Arch Linux)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: ba-bycing.aux
 The style file: plain.bst
-Database file #1: referencias.bib
-Warning--I didn't find a database entry for ""
-You've used 2 entries,
+Database file #1: referencias.bib.bib
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            514 strings with 4422 characters,
-and the built_in function-call counts, 722 in all, are:
-= -- 72
-> -- 36
+            528 strings with 4815 characters,
+and the built_in function-call counts, 1356 in all, are:
+= -- 134
+> -- 66
 < -- 0
-+ -- 14
-- -- 12
-* -- 58
-:= -- 129
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 12
++ -- 26
+- -- 22
+* -- 109
+:= -- 239
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 22
-empty$ -- 51
-format.name$ -- 12
-if$ -- 141
+cite$ -- 4
+duplicate$ -- 44
+empty$ -- 100
+format.name$ -- 22
+if$ -- 268
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 8
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 15
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 19
 quote$ -- 0
-skip$ -- 14
+skip$ -- 28
 stack$ -- 0
-substring$ -- 54
-swap$ -- 2
+substring$ -- 95
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 16
 warning$ -- 0
-while$ -- 8
-width$ -- 3
-write$ -- 24
-(There was 1 warning)
+while$ -- 15
+width$ -- 5
+write$ -- 46

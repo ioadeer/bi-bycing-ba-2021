@@ -16,16 +16,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\documentclass[runningheads,a4paper]{llncs}
+\documentclass[runningheads,a4paper,spanish]{llncs}
 
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{amssymb}
 \setcounter{tocdepth}{3}
 \usepackage{graphicx}
 
 \usepackage{url}
-\urldef{\mailsa}\path|{alfred.hofmann, ursula.barth, ingrid.haas, frank.holzwarth,|
-\urldef{\mailsb}\path|anna.kramer, leonie.kunz, christine.reiss, nicole.sator,|
-\urldef{\mailsc}\path|erika.siebert-cole, peter.strasser, lncs}@springer.com|    
+\urldef{\mailsa}\path|{lifofernandez, jenniffer.chavez, cjoackin}@gmail.com|    
 \newcommand{\keywords}[1]{\par\addvspace\baselineskip
 \noindent\keywordname\enspace\ignorespaces#1}
 
@@ -34,12 +34,10 @@
 \mainmatter  % start of an individual contribution
 
 % first the title is needed
-\title{Lecture Notes in Computer Science:\\Authors' Instructions
-for the Preparation\\of Camera-Ready
-Contributions\\to LNCS/LNAI/LNBI Proceedings}
+\title{Business Intelligence aplicado al servicio de ~\textit{bicing} de la Ciudad Autónoma de Buenos Aires}
 
 % a short form should be given in case it is too long for the running head
-\titlerunning{Lecture Notes in Computer Science: Authors' Instructions}
+\titlerunning{BI aplicado al servicio de ~\textit{bicing} de CABA}
 
 % the name(s) of the author(s) follow(s) next
 %
@@ -47,42 +45,88 @@ Contributions\\to LNCS/LNAI/LNBI Proceedings}
 % their surnames. This ensures that the names appear correctly in
 % the running heads and the author index.
 %
-\author{Alfred Hofmann%
-\thanks{Please note that the LNCS Editorial assumes that all authors have used
-the western naming convention, with given names preceding surnames. This determines
-the structure of the names in the running heads and the author index.}%
-\and Ursula Barth\and Ingrid Haas\and Frank Holzwarth\and\\
-Anna Kramer\and Leonie Kunz\and Christine Rei\ss\and\\
-Nicole Sator\and Erika Siebert-Cole\and Peter Stra\ss er}
+\author{Lisandro Fernández \and Jennifer Chavez \and Joaquín Cerviño}
 %
-\authorrunning{Lecture Notes in Computer Science: Authors' Instructions}
 % (feature abused for this document to repeat the title also on left hand pages)
 
 % the affiliations are given next; don't give your e-mail address
 % unless you accept that it will be published
-\institute{Springer-Verlag, Computer Science Editorial,\\
-Tiergartenstr. 17, 69121 Heidelberg, Germany\\
+\institute{Universidad Tecnológica Nacional\\
 \mailsa\\
-\mailsb\\
-\mailsc\\
-\url{http://www.springer.com/lncs}}
+\url{https://github.com/ioadeer/bi-bycing-ba-2021}}
 
-\toctitle{Lecture Notes in Computer Science}
-\tocauthor{Authors' Instructions}
+\toctitle{Congreso Argentino de Ciencias de la Computación}
+\tocauthor{}
 \maketitle
 
 \begin{abstract}
-The abstract should summarize the contents of the paper and should
-contain at least 70 and at most 150 words. It should be written using the
-\emph{abstract} environment.
-\keywords{We would like to encourage you to list your keywords within
-the abstract section}
+
+Este es un estudio preliminar de los viajes realizados en el sistema público de
+bicicletas de la Ciudad de Buenos Aires durante todo el año 2020 y el primer
+semestre de 2021.
+Se prepararon más de 3 millones de registros de viajes y se adquirieron más de
+13000 datos climáticos horarios. Se comprobó la incidencia
+del estado del clima, emparejando dichos recorridos a las observaciones
+horarias meteorológicas para el mismo período de tiempo.
+Se estudió el efecto modulador periodico semanal de la estacionalidad días
+hábiles- fines de semana en uso del servicio además de los acontecimientos
+eventuales del tipo festividades, feriados nacionales o días
+no laborales.
+
+\keywords{
+regeneración digitalmente inclusiva, servicios electrónicos,
+códigos de diseño basados en formularios, gobernanza, ciudades inteligentes,
+trayectorias de conocimiento, planes maestros, redes, 
+transición
+}
 \end{abstract}
 
-\section{Introduction}
+\section{Introducción}
 
-\subsection{Checking the PDF File}
+Los sistemas de \textit{bicing} son un medio de transporte que comenzó a implementarse a
+fines de la primera década de los 2000~\cite{demaio2009bike}. Están
+constituidos por bicicletas de accesso público y estaciones donde los usuarios
+las retiran y, luego de su uso, las estacionan.
 
+Debido a su popularidad y al hecho de que persistan la información sobre el uso
+que le dan lo usuarios, se realizaron diversos estudios sobre los mismos a
+mitad de la década pasada~\cite{OBrien2014}~\cite{jensen2010characterizing}
+~\cite{lathia2012measuring}. Dichos análisis hacían énfasis en describir los
+patrones de uso de dichos sistemas de transporte y la topología de los mismos. 
+
+Dado a que las propiedades observables del sistema de ~\textit{bicing} pueden
+servir para generar \textit{insights} sobre los patrones de uso que le dan los
+usuarios se juzga relevante realizar nuevos análisis del mismo teniendo en
+cuenta el contexto actual de emergencia sanitaria. Se puede afirmar a priori
+que las inferencias obtenidas a partir del análisis de datos de dicho sistema
+de transporte pueden facilitar la comprensión y discernimiento de nuevos
+patrones de uso, así como también ser de utilidad para la empresa que gestiona
+dicho servicio.
+
+\section{Metodología}
+
+Con el fin de esclarecer la información a analizar,se produjeron subconjuntos de
+datos derivados de contabilizar las salidas, arribos y usuarios.  
+
+Otras características que se desarrollaron son las del tipo de recorrido, ida
+de una estación a otra o bien, vuelta a la misma estación. 
+
+El cálculo de la distancia del viaje derivó en la posibilidad de establecer la
+velocidad de desplazamiento de los usuarios y a partir de ello desarrollar
+múltiples características.
+
+Establecer la relación entre el origen y destino de cada viaje a los
+información de cada estación habilitó estructurar en nubes de puntos espaciales
+lo que permitió analizar diversas propiedades, para múltiples ventanas de
+tiempo con diferentes frecuencias de muestreo.  
+
+Se desarrolló un modelo basado en aprendizaje automático (ML) de predicción de
+demanda y prescripción de suministro para cada estación dado el input del dato
+del tiempo.
+
+
+
+\newpage
 \bibliography{referencias.bib}
 \bibliographystyle{plain}
 
