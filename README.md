@@ -62,11 +62,11 @@ del tiempo.
 
 - - - 
 
-![Análisis de serie de tiempo de demanda y clima]( EDA/PNGs/clima.png "Análisis de serie de tiempo de demanda y clima")
+![Análisis de serie de tiempo de demanda y clima]( EDA/PNGs/clima.png "Análisis de serie de tiempo: Demanda y clima")
 
-![Demanda diaria de la estaciones más usadas](EDA/PNGs/demandas.png "Estaciones más usadas")
+![Diaria de las estaciones más demandadas](EDA/PNGs/demandas.png "Estaciones más demandadas")
 
-![Demanda diaria de la estaciones más usadas](EDA/PNGs/demandaA.png "Logo Title Text 1")
+![Area de demanda](EDA/PNGs/demandaA.png "Area de demanda")
 
 [**Bicing BA - VIDEO: FECHA DE MAYOR DEMANDA**](https://www.youtube.com/watch?v=_muR3drqs_Y)
 
