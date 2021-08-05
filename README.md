@@ -64,7 +64,7 @@ del tiempo.
 
 ![Análisis de serie de tiempo de demanda y clima]( EDA/PNGs/clima.png "Análisis de serie de tiempo de demanda y clima")
 
-![Demanda diaria de la estaciones más usadas](EDA/PNGs/demanda.png "Estaciones más usadas")
+![Demanda diaria de la estaciones más usadas](EDA/PNGs/demandas.png "Estaciones más usadas")
 
 ![Demanda diaria de la estaciones más usadas](EDA/PNGs/demandaA.png "Logo Title Text 1")
 
