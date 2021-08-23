@@ -26,12 +26,11 @@ las retiran y, luego de su uso, las estacionan.
 
 Debido a su popularidad y al hecho de que persistan la información sobre el uso
 que le dan lo usuarios, se realizaron diversos estudios sobre los mismos a
-mitad de la década pasada~\cite{OBrien2014}~\cite{jensen2010characterizing}
-~\cite{lathia2012measuring}. Dichos análisis hacían énfasis en describir los
+mitad de la década pasada. Dichos análisis hacían énfasis en describir los
 patrones de uso de dichos sistemas de transporte y la topología de los mismos. 
 
-Dado a que las propiedades observables del sistema de ~\textit{bicing} pueden
-servir para generar \textit{insights} sobre los patrones de uso que le dan los
+Dado a que las propiedades observables del sistema de pueden
+servir para generar sobre los patrones de uso que le dan los
 usuarios se juzga relevante realizar nuevos análisis del mismo teniendo en
 cuenta el contexto actual de emergencia sanitaria. Se puede afirmar a priori
 que las inferencias obtenidas a partir del análisis de datos de dicho sistema
