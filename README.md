@@ -19,8 +19,8 @@ códigos de diseño basados en formularios, gobernanza, ciudades inteligentes,
 trayectorias de conocimiento, planes maestros, redes, 
 transición
 
-Los sistemas de \textit{bicing} son un medio de transporte que comenzó a implementarse a
-fines de la primera década de los 2000~\cite{demaio2009bike}. Están
+Los sistemas de \bicingson un medio de transporte que comenzó a implementarse a
+fines de la primera década de los demaio2009bike. Están
 constituidos por bicicletas de accesso público y estaciones donde los usuarios
 las retiran y, luego de su uso, las estacionan.
 
