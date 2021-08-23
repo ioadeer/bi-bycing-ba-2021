@@ -19,8 +19,8 @@ códigos de diseño basados en formularios, gobernanza, ciudades inteligentes,
 trayectorias de conocimiento, planes maestros, redes, 
 transición
 
-Los sistemas de \bicingson un medio de transporte que comenzó a implementarse a
-fines de la primera década de los demaio2009bike. Están
+Los sistemas de bicings on un medio de transporte que comenzó a implementarse a
+fines de la primera década de los 2000. Están
 constituidos por bicicletas de accesso público y estaciones donde los usuarios
 las retiran y, luego de su uso, las estacionan.
 
@@ -29,7 +29,7 @@ que le dan lo usuarios, se realizaron diversos estudios sobre los mismos a
 mitad de la década pasada. Dichos análisis hacían énfasis en describir los
 patrones de uso de dichos sistemas de transporte y la topología de los mismos. 
 
-Dado a que las propiedades observables del sistema de pueden
+Dado a que las propiedades observables del sistema se pueden
 servir para generar sobre los patrones de uso que le dan los
 usuarios se juzga relevante realizar nuevos análisis del mismo teniendo en
 cuenta el contexto actual de emergencia sanitaria. Se puede afirmar a priori
